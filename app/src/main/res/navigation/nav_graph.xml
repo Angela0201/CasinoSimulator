@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.casinosimulator.HomeFragment"
+        android:label="@string/menu_home" />
+
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.example.casinosimulator.GamesFragment"
+        android:label="@string/menu_games">
+
+        <action
+            android:id="@+id/action_gamesFragment_to_coinFlipFragment"
+            app:destination="@id/coinFlipFragment" />
+
+        <action
+            android:id="@+id/action_gamesFragment_to_diceFragment"
+            app:destination="@id/diceFragment" />
+
+        <action
+            android:id="@+id/action_gamesFragment_to_slotsFragment"
+            app:destination="@id/slotsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.casinosimulator.HistoryFragment"
+        android:label="@string/menu_history" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.casinosimulator.SettingsFragment"
+        android:label="@string/menu_settings" />
+
+    <fragment
+        android:id="@+id/coinFlipFragment"
+        android:name="com.example.casinosimulator.CoinFlipFragment"
+        android:label="@string/title_coin_flip"
+        tools:layout="@layout/fragment_coin_flip" />
+
+    <fragment
+        android:id="@+id/diceFragment"
+        android:name="com.example.casinosimulator.DiceFragment"
+        android:label="@string/title_dice"
+        tools:layout="@layout/fragment_dice" />
+
+    <fragment
+        android:id="@+id/slotsFragment"
+        android:name="com.example.casinosimulator.SlotsFragment"
+        android:label="@string/title_slots"
+        tools:layout="@layout/fragment_slots" />
+
+</navigation>

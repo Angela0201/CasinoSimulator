@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">CasinoSimulator</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_games">Games</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="theme_label">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="text_size_label">Text size</string>
+    <string name="text_small">Small</string>
+    <string name="text_medium">Medium</string>
+    <string name="text_large">Large</string>
+    <string name="history_empty">No games yet</string>
+    <string name="reset_balance">Reset balance</string>
+    <string name="clear_history">Clear history</string>
+    <string name="balance_reset_done">Balance reset</string>
+    <string name="history_cleared_done">History cleared</string>
+    <string name="history_line1">%1$s  •  Bet: %2$d  •  %3$s%4$d</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_games">Games</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_coin_flip">Coin Flip</string>
+    <string name="title_dice">Dice</string>
+    <string name="title_slots">Slots</string>
+
+    <string name="games_choose_title">CHOOSE A GAME</string>
+
+    <string name="games_header_image_desc">Games header image</string>
+    <string name="games_item_dice_desc">Open Dice game</string>
+    <string name="games_item_slots_desc">Open Slots game</string>
+    <string name="games_item_coin_desc">Open Coin Flip game</string>
+
+    <string name="bet_hint">Bet</string>
+    <string name="balance_label">Balance: %1$d</string>
+    <string name="result_win">WIN</string>
+    <string name="result_lose">LOSE</string>
+    <string name="bet_label">Bet:</string>
+    <string name="bet_value">%1$d</string>
+
+    <string name="pick_number">Pick a number</string>
+    <string name="bet_fixed">Bet</string>
+    <string name="rolled">Rolled: %1$d</string>
+    <string name="payout_win">WIN +%1$d</string>
+    <string name="payout_lose">LOSE -%1$d</string>
+    <string name="jackpot">JACKPOT!</string>
+
+    <string name="jackpot_amount">+%1$d</string>
+    <string name="jackpot_amount_preview">+1000</string>
+
+    <string name="dice_num_1">1</string>
+    <string name="dice_num_2">2</string>
+    <string name="dice_num_3">3</string>
+    <string name="dice_num_4">4</string>
+    <string name="dice_num_5">5</string>
+    <string name="dice_num_6">6</string>
+
+    <string name="dice_bet_50">50</string>
+    <string name="dice_bet_100">100</string>
+    <string name="dice_bet_200">200</string>
+    <string name="dice_bet_500">500</string>
+
+    <string name="not_enough_balance">Not enough balance</string>
+
+    <string name="slots_spin">SPIN</string>
+    <string name="slots_bet">Bet</string>
+    <string name="slots_jackpot">JACKPOT!</string>
+
+    <string name="coin_result_win">WIN #%1$d +%2$d</string>
+    <string name="coin_result_lose">LOSE -%1$d</string>
+
+    <string name="home_title">Home</string>
+    <string name="home_balance_title">Current balance</string>
+    <string name="home_stats_title">Game stats</string>
+    <string name="home_earned">Earned</string>
+    <string name="home_lost">Lost</string>
+    <string name="game_dice">Dice</string>
+    <string name="game_slots">Slots</string>
+    <string name="game_coin_flip">Coin Flip</string>
+
+    <string name="blank_space"> </string>
+    <string name="slots_jackpot_bar">JACKPOT! +%1$d</string>
+</resources>
